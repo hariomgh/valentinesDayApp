@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_200"
+    android:orientation="vertical"
+    tools:context=".SecondActivity"
+
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tV1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="70dp"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="@color/pink_700"
+        android:layout_gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="   History of       Valentine day" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tV2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="40dp"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="@color/pink_700"
+        android:layout_gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Message for you " />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/verticlebackground2"
+    android:orientation="vertical"
+    tools:context=".History">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/history" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textColor="@color/purple_500"
+                android:layout_weight="1"
+                android:text="Saint Valentine’s Day is celebrated on February 14, but why? The story goes that in Rome around 269 AD, Saint Valentine was performing weddings for soldiers. Saint Valentine was arrested and imprisoned. While imprisoned he fell in love with a jailer’s daughter. Before his execution on February 14, 269 AD, he wrote her a letter signed “Your Valentine” as a final farewell, and the saying has stuck ever since.
+
+        Although a grim story, the association with undying romantic love captured the hearts of hopeless romantics, philosophers, and poets. Around the 14th century, Saint Valentine’s Day or Valentine’s Day became a tradition in what’s called courtly love. Knights would show their love for the ladies by performing services of nobility and chivalry with handwritten love notes, now better known as greeting cards." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
